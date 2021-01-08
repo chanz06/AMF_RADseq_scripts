@@ -96,6 +96,7 @@
 # Load modules needed for your job.
 # ********************************
 # Reminder: you can search for software with the "vit_soft" command.
+# For mapping statistics: samtools stats $file.bam | grep ^SN | cut -f 2-;done
 module add Bioinformatics/Software/vital-it
 module add UHTS/Analysis/samtools/1.8
 module add UHTS/Aligner/bwa/0.7.13
